@@ -143,6 +143,12 @@ body {
 
 
     }
+  img{
+        height:100%;
+        width: 100%;
+        border-radius: 20px;
+        overflow: hidden;
+    }
 @media (min-width:800px) and (max-width:1000px) {
     .page2 {
         padding: 10px;
