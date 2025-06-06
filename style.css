@@ -1,0 +1,359 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 200vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.975);
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    background-image: url(avengers.jpg);
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    font-family: "Marvel", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    position: relative;
+}
+
+.nav {
+    position: fixed;
+    width: 100%;
+    height: 10vh;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+
+.logo {
+    background-image: url(logo2.png);
+    height: 100%;
+    width: 350px;
+    background-position: center;
+    background-size: cover;
+    ;
+}
+
+.head {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.head a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.4rem;
+    position: relative;
+}
+
+.head a:hover {
+    color: rgb(30, 132, 216);
+}
+
+.body {
+    grid-column: span 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    height: 30%;
+    width: 100vw;
+    margin-top: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#text {
+    color: rgb(119, 118, 118);
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+}
+
+.photo {
+    height: 30%;
+    width: 100%;
+}
+
+.menu {
+    visibility: hidden;
+}
+
+.navv {
+    height: 200px;
+    width: 160px;
+    position: absolute;
+    border-radius: 20px;
+    border: 1px solid white;
+    top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    right: 50px;
+    background-color: rgba(0, 0, 0, 0.61);
+    visibility: hidden;
+}
+
+.navv a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.4rem;
+    position: relative;
+}
+
+.navv {
+    height: 200px;
+    width: 160px;
+    position: absolute;
+    border-radius: 20px;
+    border: 1px solid white;
+    top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    right: 50px;
+    background-color: rgba(0, 0, 0, 0.61);
+    visibility: hidden;
+}
+@media (min-width:800px) {
+     .page2 {
+    padding: 100px;
+    height: 200vh;
+    
+}
+.box {
+    height: 325px;
+   width: 220px;
+    border: 1px solid white;
+    border-radius: 20px;
+    margin: 20px;
+   
+
+}
+}
+@media (max-width:800px) {
+    .container {
+        background-image: url(thumb-1920-153895.jpg);
+        background-position: center;
+        background-size: cover;
+        overflow: hidden;
+        width: 100vw;
+    }
+
+    .content {
+        width: 100%;
+        height: 30%;
+    }
+
+    .menu {
+        color: white;
+        font-size: 21px;
+        visibility: visible;
+        margin-right: 60px;
+    }
+
+    .head {
+        visibility: hidden;
+        width: 200px;
+    }
+
+    .logo {
+        margin-left: 20px;
+        width: 200px;
+    }
+
+    .page2 {
+    height: 5100px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     display: flexbox;
+     flex-wrap: wrap;
+    padding: 10px;
+}
+.box {
+    height: 325px;
+    width: 200px;
+    border: 1px solid white;
+    border-radius: 20px;
+    margin: 5px;
+
+}
+}
+
+.page2 {
+    
+    width: 100%;
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     display: flexbox;
+     flex-wrap: wrap;
+    
+}
+.box1{
+    background-image: url(iron1.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+.box2{
+    background-image: url(hulk.jpg);
+    background-size: cover;
+}
+.box3{
+    background-image: url(iron2.jpg);
+    background-size: cover;
+}
+.box4{
+    background-image: url(thor1.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+.box5{
+    background-image: url(cap1.jpg);
+    background-size: cover;
+}
+.box6{
+    background-image: url(avengers1.jpg);
+    background-size: cover;
+}
+
+
+.box7{
+    background-image: url(iron2.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+.box8{
+    background-image: url(thor2.jpg);
+    background-size: cover;
+}
+.box9{
+    background-image: url(cap2.jpg);
+    background-size: cover;
+}
+.box10{
+    background-image: url(gurdian.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+.box11{
+    background-image: url(avgultron.jpg);
+    background-size: cover;
+}
+.box12{
+    background-image: url(antman1.jpg);
+    background-size: cover;
+}
+
+
+.box13{
+    background-image: url(cap2.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+.box14{
+    background-image: url(dr1.jpg);
+    background-size: cover;
+}
+.box15{
+    background-image: url(gurdian2.jpg);
+    background-size: cover;
+}
+.box16{
+    background-image: url(sp3.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+.box17{
+    background-image: url(thor2.jpg);
+    background-size: cover;
+}
+.box18{
+    background-image: url(blackp.jpg);
+    background-size: cover;
+}
+
+
+.box19{
+    background-image: url(avginfinity.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+.box20{
+    background-image: url(antman2.jpg);
+    background-size: cover;
+}
+.box21{
+    background-image: url(captainmarvel.jpg);
+    background-size: cover;
+}
+.box22{
+    background-image: url(avgendgame.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+.box23{
+    background-image: url(spman2.jpg);
+    background-size: cover;
+}
+.box24{
+    background-image: url(blackw.jpg);
+    background-size: cover;
+}
+
+
+.box25{
+    background-image: url(sanghi.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+.box26{
+    background-image: url(eternals.jpg);
+    background-size: cover;
+}
+.box27{
+    background-image: url(sp4.jpg);
+    background-size: cover;
+}
+.box28{
+    background-image: url(thor3.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+.box29{
+    background-image: url(blackp2.jpg);
+    background-size: cover;
+}
+.box30{
+    background-image: url(antman3.jpg);
+    background-size: cover;
+}
+
+
