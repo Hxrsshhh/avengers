@@ -134,11 +134,20 @@ body {
     background-color: rgba(0, 0, 0, 0.61);
     visibility: hidden;
 }
+ .box {
+        height: 325px;
+        width: 220px;
+        border: 1px solid white;
+        border-radius: 20px;
+        margin: 20px;
 
-@media (min-width:800px) {
+
+    }
+@media (min-width:800px) and (max-width:1000px) {
     .page2 {
-        padding: 100px;
-        height: 200vh;
+        padding: 10px;
+        height: 4200px;
+        
 
     }
 
@@ -152,7 +161,24 @@ body {
 
     }
 }
+@media (min-width:1000px) and (max-width:1400px) {
+    .page2 {
+        padding: 10px;
+        height: 3400px;
+        
 
+    }
+
+    .box {
+        height: 325px;
+        width: 200px;
+        border: 1px solid white;
+        border-radius: 20px;
+        margin: 20px;
+
+
+    }
+}
 @media (max-width:800px) {
     .container {
         background-image: url(thumb-1920-153895.jpg);
@@ -160,6 +186,7 @@ body {
         background-size: cover;
         overflow: hidden;
         width: 100vw;
+        height: 100vh;
     }
 
     .content {
@@ -185,7 +212,7 @@ body {
     }
 
     .page2 {
-        height: 4100px;
+        height: 4000px;
         width: 100%;
         background-position: center;
         background-size: cover;
@@ -225,6 +252,7 @@ body {
     justify-content: center;
     display: flexbox;
     flex-wrap: wrap;
+
 
 }
 
@@ -391,11 +419,6 @@ body {
     background-image: url(antman3.jpg);
     background-size: cover;
 }
-
-
-
-
- 
  
 
 
